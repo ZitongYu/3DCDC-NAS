@@ -1,7 +1,7 @@
 # AutoGesture with 3DCDC
 Pytorch code for the arXiv paper "Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition".
 
-## Welcome to plug and play 3DCDC in your networks
+### Welcome to plug and play 3DCDC in your networks
 ```
 # -------- Vanilla ---------#
 nn.Conv3d(3, 64, kernel_size=3, padding=1)
@@ -14,7 +14,7 @@ CDC_TR(3, 64, kernel_size=3, padding=1, theta=0.3)
 ```
 
 
-## Citation
+### Citation
 
 If you find our project useful in your research, please consider citing:
 
@@ -29,11 +29,11 @@ If you find our project useful in your research, please consider citing:
 
 
 
-## Pretrained model on IsoGD
+### Pretrained model on IsoGD
 You can download the checkpoints from [google drive](https://drive.google.com/drive/folders/1lFcIXJO7LBZMytlpWgM_r4YeSwO5VLix?usp=sharing)
 
 
-## Visualization
+### Visualization
 
 
 <div align=center>
