@@ -1,3 +1,4 @@
+# AutoGesture with 3DCDC
 Pytorch code for the arXiv paper "Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition".
 
 ## Welcome to plug and play 3DCDC in your networks
@@ -36,7 +37,7 @@ You can download the checkpoints from [google drive](https://drive.google.com/dr
 
 
 <div align=center>
-<img src="https://github.com/ZitongYu/3DCDC-NAS/blob/master/supplementary%20materials/Searched.pdf"><br>
+<img src="https://github.com/ZitongYu/3DCDC-NAS/blob/master/supplementary%20materials/Searched.png"><br>
 Figure 1: The searched architecture from (a) the first stage NAS, and (b) the second stage NAS. The three rows in (a) represent the searched cell structure in the low, mid, and high frame branches, respectively.
 </div>
 
