@@ -1,0 +1,30 @@
+data_dir_root: /media/ssd1/bjzhou/Dataset/IsoGD
+dataset_splits: /media/ssd1/bjzhou/CodeDir/AcmW_Code/dataset_splits
+init_model: /media/ssd1/bjzhou/CodeDir/C3D/Checkpoints/fusionpth/epoch24-K-valid_0.5568-test_0.6085.pth
+visname: C3D_AUG_Iso
+num_classes: 249
+batch_size: 24
+testing_batch_size: 256
+num_workers: 4
+learning_rate: 0.01
+momentum: 0.9
+weight_decay: 5e-05
+init_epochs: 0
+max_epochs: 80
+print_freq: 10
+pretrain: False
+sample_duration: 32
+init_channels8: 48
+init_channels16: 32
+init_channels32: 16
+layers: 12
+====================
+load from AutoGesture Network
+Load Depth network...
+Load state_dict...
+Load module Finished
+====================
+Start load Data...
+ Validing [ 1/80,    9/  22], Loss 2.5660(2.8190), Acc: 0.5457 	 time: @08.17 12:54:19
+ Validing [ 1/80,   19/  22], Loss 2.4136(2.7495), Acc: 0.5588 	 time: @08.17 12:55:14
+valid_acc:0.5568044267681135
