@@ -1,0 +1,32 @@
+common:
+  data_dir_root: /Dataset/IsoGD
+  dataset_splits: /CodeDir/AcmW_Code/dataset_splits
+
+  init_model: ../checkpoints/epoch26-MK-valid_0.6004-test_0.6224.pth
+# init_model: ../checkpoints/epoch29-MF-valid_0.6122-test_0.6284.pth
+# init_model: ../checkpoints/epoch26-KF-valid_0.6247-test_0.6638.pth
+
+#-------basic parameter----------
+  visname: AutoGesture_AUG_RGBD # modify
+  num_classes: 249
+  batch_size: 12
+  testing_batch_size: 200
+  num_workers: 4
+  learning_rate: 0.01 # modify
+  momentum: 0.9
+  weight_decay: 0.00005
+  init_epochs: 0 # modify
+  max_epochs: 80 # modify
+  print_freq: 10
+  pretrain: False # modify
+#-------------end----------------
+
+#-------additional parameter-----
+  sample_duration: 32 # modify
+
+  # AutoGesture_searched
+  init_channels8: 48
+  init_channels16: 32
+  init_channels32: 16
+  layers: 12
+#-------------end----------------

@@ -1,0 +1,32 @@
+data_dir_root: /media/ssd1/bjzhou/Dataset/IsoGD
+dataset_splits: /media/ssd1/bjzhou/CodeDir/AcmW_Code/dataset_splits
+init_model: /media/ssd1/bjzhou/CodeDir/C3D/Checkpoints/fusionpth/epoch26-MK-valid_0.6004-test_0.6224.pth
+visname: C3D_AUG_RGBD
+num_classes: 249
+batch_size: 12
+testing_batch_size: 200
+num_workers: 4
+learning_rate: 0.01
+momentum: 0.9
+weight_decay: 5e-05
+init_epochs: 0
+max_epochs: 80
+print_freq: 10
+pretrain: False
+sample_duration: 32
+init_channels8: 48
+init_channels16: 32
+init_channels32: 16
+layers: 12
+====================
+load from AutoGesture_RGBD_Con_shared_DiffChannels
+Load state dict...
+Load module Finished
+====================
+Start load Data...
+Load <IsoGD>  Dataset!
+====================
+Validation...
+ Validing [ 1/80,    9/  28], Loss 3.3749(3.1545), Acc: 0.5850 	 time: @08.17 13:21:46
+ Validing [ 1/80,   19/  28], Loss 3.1967(2.9978), Acc: 0.5985 	 time: @08.17 13:22:50
+valid_acc:0.6003804253847485
