@@ -36,13 +36,13 @@ You can download the checkpoints from [google drive](https://drive.google.com/dr
 
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/18327074/86634006-08d25800-bfda-11ea-8a83-e79e2611419e.png"><br>
+<img src="https://github.com/ZitongYu/3DCDC-NAS/blob/master/supplementary%20materials/Searched.pdf"><br>
 Figure 1: The searched architecture from (a) the first stage NAS, and (b) the second stage NAS. The three rows in (a) represent the searched cell structure in the low, mid, and high frame branches, respectively.
 </div>
 
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/18327074/86634006-08d25800-bfda-11ea-8a83-e79e2611419e.png"><br>
+<img src="https://github.com/ZitongYu/3DCDC-NAS/blob/master/supplementary%20materials/Visualization.jpg"><br>
 Figure 2: Features visualization from C3D assembled with varied convolutions on the IsoGD dataset. With (a) RGB and (b) Depth modality inputs, the four rows represent the neural activation with 3D vanilla convolution, 3D-CDC-ST, 3D-CDC-T, and 3D-CDC-TR, respectively.
 </div>
 
