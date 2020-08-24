@@ -1,5 +1,5 @@
 # AutoGesture with 3DCDC
-Pytorch code for the arXiv paper "Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition".
+Pytorch code for the arXiv paper [**"Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition"**  ](https://arxiv.org/pdf/2008.09412.pdf)
 
 ### Welcome to plug and play 3DCDC in your networks
 ```
