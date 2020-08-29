@@ -19,10 +19,10 @@ CDC_TR(3, 64, kernel_size=3, padding=1, theta=0.3)
 If you find our project useful in your research, please consider citing:
 
 ```
-@inproceedings{yu2020searching,
+@article{yu2020searching,
   title={Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition},
-  author={Yu, Zitong and Zhou, Benjia and Wan, Jun and Wang, Pichao and Chen, Haoyu and Liu, Xin and Li, Stan Z. and Zhao, Guoying},
-  booktitle={arXiv},
+  author={Yu, Zitong and Zhou, Benjia and Wan, Jun and Wang, Pichao and Chen, Haoyu and Liu, Xin and Li, Stan Z and Zhao, Guoying},
+  journal={arXiv preprint arXiv:2008.09412},
   year={2020}
 }
 ```
