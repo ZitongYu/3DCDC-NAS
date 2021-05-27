@@ -1,5 +1,5 @@
 # AutoGesture with 3DCDC
-Pytorch code for the arXiv paper [**"Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition"**  ](https://arxiv.org/pdf/2008.09412.pdf)
+Pytorch code for the TIP paper [**"Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition"**  ](https://arxiv.org/pdf/2008.09412.pdf)
 
 ### Welcome to plug and play 3DCDC in your networks
 ```
@@ -19,11 +19,11 @@ CDC_TR(3, 64, kernel_size=3, padding=1, theta=0.3)
 If you find our project useful in your research, please consider citing:
 
 ```
-@article{yu2020searching,
+@article{yu2021searching,
   title={Searching Multi-Rate and Multi-Modal Temporal Enhanced Networks for Gesture Recognition},
   author={Yu, Zitong and Zhou, Benjia and Wan, Jun and Wang, Pichao and Chen, Haoyu and Liu, Xin and Li, Stan Z and Zhao, Guoying},
-  journal={arXiv preprint arXiv:2008.09412},
-  year={2020}
+  journal={IEEE Transactions on Image Processing (TIP)},
+  year={2021}
 }
 ```
 
